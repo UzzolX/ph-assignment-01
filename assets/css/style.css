@@ -1,0 +1,58 @@
+/* Hero Section */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Serif";
+    background-color: #EDF9FF;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: #ff97ad;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.banner-image img {
+    width: 550px;
+}
+
+.banner-image {
+    margin-bottom: -5px;
+}
+
+.banner-info h1 {
+    font-size: 80px;
+    color: #060640;
+}
+
+.banner-info p {
+    font-size: 18px;
+    margin: 20px 0px;
+    color: #272727;
+}
+
+.button {
+    background: #E55473;
+    color: white;
+    border: 0px;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 20px 43px;
+}
