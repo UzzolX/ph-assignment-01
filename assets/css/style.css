@@ -12,6 +12,14 @@ body {
     color: #333;
 }
 
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
 /* Hero Section */
 .hero {
     background: #ff97ad;
@@ -55,4 +63,168 @@ body {
     font-size: 18px;
     border-radius: 8px;
     padding: 20px 43px;
+}
+
+/* Artwork Collection Section */
+
+.section-title {
+    color: #060640;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 24px; */
+}
+
+.card-image {
+    width: 100%;
+    display: flex;
+    background: #F2DEE7;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.caption {
+    text-align: center;
+    width: 384px;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+
+/* Artistic Inspiration Section */
+
+.all-inspiration {
+    display: flex;
+    padding: 86px 75px;
+    border-radius: 8px;
+    background: #F4F4F4;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inspiration-block {
+    text-align: center;
+    width: 350px;
+    margin-bottom: 40px;
+}
+
+.inspiration-block img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+/* About the Store and Promotions Section */
+
+.promotion {
+    background: #ffd5de;
+    padding: 50px 0;
+}
+
+.promotion-info {
+    text-align: center;
+}
+
+.promotion-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* Art Showcase Section */
+
+.art-gallery {
+    display: flex;
+    gap: 24px;
+}
+
+.gallery-single img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Newsletter Section */
+
+.cta {
+    background-image: url(../images/Rectangle9.png);
+    padding: 70px 50px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 22px;
+    border-radius: 8px;
+    width: 50%;
+    margin-right: 16px;
+    border: 0px solid #ddd;
+}
+
+
+/* Contact Section */
+
+.contact-form input {
+    width: 100%;
+    padding: 20px 15px;
+    border: 0px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 20px 15px;
+    border: 0px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* Footer Section */
+
+.bottom-footer {
+    padding: 128px 0;
+}
+
+.section-title span {
+    color: #e55473;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
