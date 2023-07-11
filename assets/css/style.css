@@ -33,7 +33,6 @@ body {
 .banner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding-top: 50px;
 }
 
@@ -78,15 +77,14 @@ body {
     color: #757575;
     text-align: center;
     font-size: 18px;
-    margin-bottom: 50px;
+    margin: 24px 0px;
 }
 
 .cards {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    /* gap: 24px; */
 }
+
 
 .card-image {
     width: 100%;
@@ -98,32 +96,39 @@ body {
     justify-content: center;
 }
 
+.card-02 {
+    background: #DAEFF1;
+}
+
+.card-03 {
+    background: #E3ECDB;
+}
+
 .caption {
     text-align: center;
     width: 384px;
     text-decoration: underline;
+    font-weight: 600;
     margin-top: 20px;
 }
 
 
 /* Optional Section */
 
-.all-inspiration {
+.our-features {
     display: flex;
-    padding: 86px 75px;
+    padding: 86px 175px;
     border-radius: 8px;
-    background: #F4F4F4;
-    align-items: center;
-    justify-content: space-between;
+    background: #ffd7e0;
 }
 
-.inspiration-block {
+.features-block {
     text-align: center;
     width: 350px;
     margin-bottom: 40px;
 }
 
-.inspiration-block img {
+.features-block img {
     max-width: 150px;
     height: auto;
     margin-bottom: 20px;
@@ -139,6 +144,10 @@ body {
 
 .promotion-info {
     text-align: center;
+}
+
+.promotion-info span {
+    color: #e55473;
 }
 
 .promotion-main {
@@ -167,14 +176,12 @@ body {
     background-image: url(../images/Rectangle9.png);
     padding: 70px 50px;
     background-size: cover;
-    background-position: center;
     border-radius: 8px;
 }
 
 .newsletter-form {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 20px;
 }
 
@@ -187,7 +194,7 @@ body {
 }
 
 
-/* Contact Section */
+/* Relavent Contact Section */
 
 .contact-form input {
     width: 100%;
@@ -223,7 +230,7 @@ body {
 }
 
 footer {
-    background-color: #333;
+    background-color: #485551;
     color: #fff;
     text-align: center;
     padding: 20px;
