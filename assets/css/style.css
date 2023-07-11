@@ -65,7 +65,7 @@ body {
     padding: 20px 43px;
 }
 
-/* Artwork Collection Section */
+/* Featured flower Section */
 
 .section-title {
     color: #060640;
@@ -106,7 +106,7 @@ body {
 }
 
 
-/* Artistic Inspiration Section */
+/* Optional Section */
 
 .all-inspiration {
     display: flex;
@@ -130,7 +130,7 @@ body {
 }
 
 
-/* About the Store and Promotions Section */
+/* Promotions Section */
 
 .promotion {
     background: #ffd5de;
@@ -148,9 +148,9 @@ body {
 }
 
 
-/* Art Showcase Section */
+/* Flower Showcase, Instagram Section */
 
-.art-gallery {
+.flower-gallery {
     display: flex;
     gap: 24px;
 }
